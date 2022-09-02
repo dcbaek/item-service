@@ -71,7 +71,7 @@ public class BasicItemController {
     public String addItemV3(@ModelAttribute Item item) {
 
         itemRepository.save(item);
-//        model.addAttribute("item", item); //자동 추가, 생략 가능
+//        model.addAttribute("item", item); //자동 추가, 생략 가능  ㅁㄴㅇㅁㄴㅇ
 
         return "basic/item";
 
